@@ -1,53 +1,66 @@
-# =======================
-# Build directories
-# =======================
-/build/
-/bin/
-/obj/
+# ملفات البناء (Build) والمخرجات
+[Bb]in/
+[Oo]bj/
+x64/
+Debug/
+Release/
 
-# =======================
-# Compiled source files
-# =======================
-*.exe
-*.o
-*.out
-*.obj
-*.dll
-*.so
-*.dylib
-
-# =======================
-# CMake generated files
-# =======================
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# =======================
-# IDE / Editor settings
-# =======================
-.vscode/
-*.code-workspace
-.idea/
+# ملفات Visual Studio
+.vs/
+*.vcxproj.user
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# =======================
-# Logs and temp files
-# =======================
-*.log
-*.tmp
-*.bak
-*.swp
+# ملفات التبليط (التجميع المؤقت)
+*.ipch/
+*.iobj
+ *.pdb
+*.pch
 
-# =======================
-# OS-specific files
-# =======================
-.DS_Store
-Thumbs.db
-desktop.ini
+# ملفات التول (Tools) و IntelliSense
+*.opensdf
+*.sdf
+*.cachefile
+
+# ملفات اللغات البرمجية الأخرى (لو عندك)
+*.log
+*.tlog/
+*.lastbuildstate
+
+# ملفات NuGet (لو تستخدمه)
+packages/
+*.nupkg
+*.snupkg
+project.lock.json  
+project.fragment.lock.json
+
+# ملفات التوثيق المؤقتة
+*.aps
+*.ncb
+*.opt
+
+# ملفات بيئة العمل (Debug/Release)
+*.ilk
+*.meta
+*.obj
+
+# ملفات إعدادات المحرر
+*.vspscc
+
+# ملفات أخرى عامة
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.app
+*.log
+
+ Thumbs.db 
+ehthumbs.db
+Desktop.ini
+*.vssscc
+# ملفات النظام
+
