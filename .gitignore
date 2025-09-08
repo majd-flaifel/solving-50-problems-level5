@@ -1,0 +1,66 @@
+# ملفات البناء (Build) والمخرجات
+[Bb]in/
+[Oo]bj/
+x64/
+Debug/
+Release/
+
+# ملفات Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ملفات التبليط (التجميع المؤقت)
+*.ipch/
+*.iobj
+ *.pdb
+*.pch
+# ملفات التول (Tools) و IntelliSense
+*.opensdf
+*.sdf
+*.cachefile
+
+# ملفات اللغات البرمجية الأخرى (لو عندك)
+*.log
+*.tlog/
+*.lastbuildstate
+
+# ملفات NuGet (لو تستخدمه)
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# ملفات التوثيق المؤقتة
+*.aps
+*.ncb
+*.opt
+
+# ملفات بيئة العمل (Debug/Release)
+*.ilk
+*.meta
+*.obj
+# ملفات إعدادات المحرر
+*.vspscc
+*.vssscc
+
+# ملفات النظام
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ملفات أخرى عامة
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.app
+*.log
+
+
+
